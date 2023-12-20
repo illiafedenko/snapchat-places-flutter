@@ -1,0 +1,65 @@
+name: snapchat
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_auth: ^4.13.0
+  get: ^4.6.6
+  shared_preferences: ^2.2.2
+  google_sign_in: ^6.1.6  
+  flutter_signin_button: ^2.0.0
+  firebase_core: ^2.22.0
+  firebase_storage: ^11.5.1
+  firebase_database: ^10.3.6
+  crypto: ^3.0.3
+  the_apple_sign_in: ^1.1.1
+  dio: ^5.0.1
+  connectivity_plus: ^5.0.1
+  google_maps_flutter: ^2.5.0
+  fluster: ^1.2.0
+  http: ^1.1.0
+  google_maps: ^6.3.0
+  geolocator: ^10.1.0
+  camera: ^0.10.5+5
+  flutter_file_dialog: ^3.0.2
+
+  intl_phone_field: ^3.2.0
+  flutter_otp_text_field: ^1.1.1
+  flutter_form_builder: ^9.1.1
+  form_builder_validators: ^9.1.0
+  timer_count_down: ^2.2.2
+  image_picker: ^1.0.4
+  path_provider: ^2.1.1
+  video_player: ^2.8.1
+  provider: ^6.0.0
+  path: ^1.8.3
+  step_progress_indicator: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+    - assets/images/markers/
+    - assets/style/
